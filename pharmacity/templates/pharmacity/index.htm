@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>Pharma-->city</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@900&family=Ubuntu:wght@500&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@600&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+
+{% load static %}
+  <link rel="stylesheet" href="{% static 'pharmacity/index.css'%}">
+  <script src="https://kit.fontawesome.com/2926c94c87.js" crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+  <section id="title">
+    <div class="container-fluid con">
+      <nav class="navbar navbar-expand-lg navbar-dark" id="col">
+          <a class="navbar-brand" href="">Pharma->city</a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                  <a class="nav-link" href="">Contact</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="">login</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="">register</a>
+                </li>
+              </ul>
+            </div>
+          </nav>
+          <div class="col-lg-6">
+            <img src="{% static 'pharmacity/images/Pharmacitylogo.png' %}" alt="logo">
+          </div>
+<!--        <  <div class="navbar navbar-inverse navbar-fixed-top">-->
+<!--            <div class="container">-->
+<!--              <div class="navbar-header">-->
+<!--                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">-->
+<!--                  <span class="icon-bar"></span>-->
+<!--                  <span class="icon-bar"></span>-->
+<!--                  <span class="icon-bar"></span>-->
+<!--                </button>-->
+<!--                <a class="navbar-brand" runat="server" href="~/">-->
+<!--&lt;!&ndash;                  <img src="http://placehold.it/200x40/3A1B37/ffffff/?text=Apllicatin"></a>&ndash;&gt;-->
+<!--&lt;!&ndash;           &lt;!&ndash;        <div class="col-md-6 col-sm-8 col-xs-11 navbar-left">&ndash;&gt;-->
+<!--&lt;!&ndash;                    <div class="navbar-form " role="search">&ndash;&gt;-->
+<!--&lt;!&ndash;                      <div class="input-group">&ndash;&gt;-->
+<!--&lt;!&ndash;                          <input type="text" class="form-control" placeholder="Search" name="srch-term" id="srch-term" style="max-width: 100%; width: 100%;">&ndash;&gt;-->
+<!--&lt;!&ndash;                          <div class="input-group-btn">&ndash;&gt;-->
+<!--&lt;!&ndash;                              <button class="btn btn-default" style="background: rgb(72, 166, 72);" type="submit"><i class="glyphicon glyphicon-search"></i></button>&ndash;&gt;-->
+<!--&lt;!&ndash;                          </div>&ndash;&gt;-->
+<!--&lt;!&ndash;                      </div>&ndash;&gt;-->
+<!--&lt;!&ndash;                    </div>&ndash;&gt;-->
+<!--&lt;!&ndash;                  </div>&ndash;&gt;-->
+<!--&lt;!&ndash;                </div>  &ndash;&gt;&ndash;&gt;-->
+<!--                <div class="navbar-collapse collapse">-->
+<!--                  <ul class="nav navbar-nav">-->
+<!--                    <li class="navbar-brand  visible-md visible-lg visible-sm" style="visibility: hidden;" runat="server">-->
+<!--                      <img src="http://placehold.it/200x40/3A1B37/ffffff/?text=Apllicatin" />-->
+<!--                    </li>-->
+<!--                    <li><a runat="server" href="~/">Home</a></li>-->
+<!--                    <li><a runat="server" href="~/About">About</a></li>-->
+<!--                    <li><a runat="server" href="~/Contact">Contact</a></li>-->
+<!--                    <li><a runat="server" href="~/">Somthing</a></li>-->
+<!--                    <li><a runat="server" href="~/">Somthing</a></li>-->
+<!--                  </ul>-->
+<!--                  <ul class="nav navbar-nav navbar-right">-->
+<!--                    <li><a runat="server" href="~/Account/Register">Register</a></li>-->
+<!--                    <li><a runat="server" href="~/Account/Login">Log in</a></li>-->
+<!--                  </ul> </div>-->
+
+<!--                </div>-->
+<!--              </div>>-->
+          <!-- <div class="row">
+            <div class="col-lg-6">
+              <h1 id="t1">Meet new and interesting dogs nearby.</h1>
+              <button type="button" class="btn btn-success btn-lg download-button"><i class="fab fa-google-play"></i> Download</button>
+              <button type="button"class="btn btn-lg btn-outline-dark download-button"><i class="fab fa-apple"></i> Download</button>
+            </div>
+            <div class="col-lg-6">
+              <img id="iphone" src="images/iphone6.png" alt="iphone-mockup">
+            </div> -->
+          </div>
+        </div>
+  </section>
